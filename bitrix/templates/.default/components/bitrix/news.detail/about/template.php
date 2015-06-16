@@ -12,6 +12,6 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);?>
 <div class="preview"><?=$arResult['PREVIEW_TEXT'];?></div>
-<img id="video" src="/upload/video.jpg">
+<?=$arResult['PROPERTIES']['ATT_VIDEO']['~VALUE'];?>
 <?=$arResult['DETAIL_TEXT'];?>
 <img src="<?=$arResult['DETAIL_PICTURE']['SRC'];?>">

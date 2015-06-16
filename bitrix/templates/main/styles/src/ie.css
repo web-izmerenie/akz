@@ -35,3 +35,7 @@
 .contacts .content .contact-block .main-representatives{
 	display: inline-block;
 }
+
+html body .wrapper .header .mainmenu .active{
+	padding: 12px 0;
+}

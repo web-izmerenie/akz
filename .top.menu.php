@@ -27,6 +27,13 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
+	),
+	Array(
+		"Прайс-лист", 
+		"/upload/АКЗ — Прайс лист (на 10.06.2015).PDF", 
+		Array(), 
+		Array(), 
+		"" 
 	)
 );
 ?>
