@@ -6,11 +6,16 @@
 		<nav>
 			<ul>
 				<?foreach($arResult as $arItem){?>
-				<li <?if($arItem['SELECTED'] == '1'){?>class="active"<?}?>><a href="<?=$arItem['LINK'];?>"><?=$arItem['TEXT'];?></a></li>
+				<li <?if($arItem['SELECTED'] == '1'){?>class="active"<?}?>>
+					<a href="<?=$arItem['LINK'];?>" <?foreach($arItem['PARAMS'] as $val => $arParam){?>
+					   <?=$val;?>="<?=$arParam;?>"
+					<?}?>>
+						<?=$arItem['TEXT'];?>
+					</a>
+				</li>
 				<?}?>
 			</ul>
 		</nav>
 	</div>
 </section>
-
 <?endif?>

@@ -16,7 +16,7 @@ $this->setFrameMode(true);?>
 		<div class="content-block">
 			<h1>В этом же цвете:</h1>
 			<ul>
-				<?foreach($arResult['ITEMS'] as $k => $arItem){?>
+				<?foreach($arResult['ITEMS'] as $arItem){?>
 					<li>
 						<a href="<?=$arItem['DETAIL_PAGE_URL'];?>">
 							<img src="<?=$arItem['DETAIL_PICTURE']['SRC'];?>">

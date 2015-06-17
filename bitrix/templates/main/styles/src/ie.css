@@ -36,6 +36,7 @@
 	display: inline-block;
 }
 
-html body .wrapper .header .mainmenu .active{
-	padding: 12px 0;
+html body .wrapper .other-item .content-block ul {
+    margin: auto 0;
+    padding: 15px 0 0;
 }
